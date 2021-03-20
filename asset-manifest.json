@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Morocco4u/static/css/main.e1dc963a.chunk.css",
+    "main.js": "/Morocco4u/static/js/main.2904b735.chunk.js",
+    "main.js.map": "/Morocco4u/static/js/main.2904b735.chunk.js.map",
+    "runtime-main.js": "/Morocco4u/static/js/runtime-main.61336fdc.js",
+    "runtime-main.js.map": "/Morocco4u/static/js/runtime-main.61336fdc.js.map",
+    "static/js/2.dfacdaa1.chunk.js": "/Morocco4u/static/js/2.dfacdaa1.chunk.js",
+    "static/js/2.dfacdaa1.chunk.js.map": "/Morocco4u/static/js/2.dfacdaa1.chunk.js.map",
+    "index.html": "/Morocco4u/index.html",
+    "static/css/main.e1dc963a.chunk.css.map": "/Morocco4u/static/css/main.e1dc963a.chunk.css.map",
+    "static/js/2.dfacdaa1.chunk.js.LICENSE.txt": "/Morocco4u/static/js/2.dfacdaa1.chunk.js.LICENSE.txt",
+    "static/media/accommodations.a7aefbe3.jpeg": "/Morocco4u/static/media/accommodations.a7aefbe3.jpeg",
+    "static/media/accommodationsmobile.cbfef1f9.jpeg": "/Morocco4u/static/media/accommodationsmobile.cbfef1f9.jpeg",
+    "static/media/App.css": "/Morocco4u/static/media/mobilehomeimage.51b8c980.jpg",
+    "static/media/tour1.86ab98b2.jpeg": "/Morocco4u/static/media/tour1.86ab98b2.jpeg",
+    "static/media/tour2.88d591a0.jpeg": "/Morocco4u/static/media/tour2.88d591a0.jpeg",
+    "static/media/tour3.2b929f30.jpeg": "/Morocco4u/static/media/tour3.2b929f30.jpeg",
+    "static/media/tour4.63fd4a4d.jpeg": "/Morocco4u/static/media/tour4.63fd4a4d.jpeg",
+    "static/media/tour5.73782eb1.jpeg": "/Morocco4u/static/media/tour5.73782eb1.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61336fdc.js",
+    "static/js/2.dfacdaa1.chunk.js",
+    "static/css/main.e1dc963a.chunk.css",
+    "static/js/main.2904b735.chunk.js"
+  ]
+}
