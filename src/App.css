@@ -1,0 +1,307 @@
+/*COLORS: 
+--primary: #c87927 hsl(30.6, 67.4%, 46.9%)
+--light: hsl(30.6, 67.4%, 90.9%)
+--dark: hsl(30.6, 67.4%, 16.9%)
+--shade1: hsl(30.6, 67.4%, 66.9%)
+--shade2: hsl(30.6, 67.4%, 82.9%)
+--shade3: hsl(30.6, 67.4%, 26.9%)
+--shade4: hsl(30.6, 67.4%, 10.9%)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30.6, 67.4%, 90.9%);
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./components/images/homepage2.jpg);
+  background-size: cover;
+}
+
+.hero-slogan,
+.hero-slogan-subtitle {
+  color: hsl(30.6, 67.4%, 90.9%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 85px;
+  position: absolute;
+  top: 195px;
+  left: 50px;
+  filter: drop-shadow(2px 4px 6px rgb(125, 173, 201));
+}
+
+.hero-slogan-subtitle {
+  font-size: 25px;
+  top: 465px;
+  filter: drop-shadow(2px 4px 6px rgb(190, 151, 109));
+}
+
+.hero-slogan-contact-btn {
+  position: absolute;
+  top: 520px;
+  left: 185px;
+  color: hsl(31, 38%, 49%);
+  background-color: hsl(30.6, 67.4%, 90.9%);
+}
+
+.hero-slogan-book-btn {
+  position: absolute;
+  top: 520px;
+  left: 50px;
+  padding: 8px 25px;
+}
+
+.hero-image {
+  height: 95vh;
+  width: 100vw;
+}
+
+.navbar-logoimg {
+  height: 150px;
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url(./components/images/mobilehomeimage.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-slogan {
+    font-size: 35px;
+    top: 332px;
+  }
+
+  .hero-slogan-subtitle {
+    font-size: 16px;
+    top: 430px;
+  }
+
+  .hero-slogan,
+  .hero-slogan-subtitle {
+    filter: drop-shadow(2px 4px 6px rgb(190, 151, 109));
+  }
+}
+
+/*-----TOURS SECTION-------*/
+.tours-container {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 90vw;
+  margin: 15px;
+  overflow: auto;
+  white-space: nowrap;
+  position: absolute;
+  top: 130px;
+}
+
+.tours-section-title {
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(30.6, 67.4%, 10.9%);
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+.tours-section-subtitle {
+  display: none;
+}
+
+.underline {
+  height: 3px;
+  width: 145px;
+  background-color: hsl(30.6, 67.4%, 10.9%);
+  position: absolute;
+  top: 114px;
+  left: 10px;
+}
+
+#tours-section-btn {
+  background-color: hsl(30.6, 67.4%, 10.9%);
+  position: absolute;
+  bottom: 40px;
+  left: calc(50% - 80px);
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 8px 30px;
+}
+
+.tour {
+  height: 380px;
+  width: 260px;
+  margin-left: 10px;
+}
+
+.tour-img {
+  height: 380px;
+  width: 260px;
+  border-radius: 14px;
+  filter: opacity(80%);
+  box-shadow: -6px -6px 8px 6px rgba(252, 245, 237, 0.5),
+    5px 5px 15px 4px rgba(116, 83, 49, 0.4);
+}
+
+.tour-title,
+.tour-desc,
+.tour-days {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  filter: drop-shadow(2px 4px 6px hsl(30.6, 67.4%, 16.9%));
+}
+
+.tour-stars {
+  position: relative;
+  top: -88px;
+  left: 10px;
+}
+
+.tour-title {
+  position: relative;
+  top: -87px;
+  left: 10px;
+  font-size: 18px;
+}
+
+.tour-desc {
+  position: relative;
+  top: -86px;
+  left: 10px;
+  font-size: 14px;
+}
+
+.tour-days {
+  position: relative;
+  top: -86px;
+  left: 12px;
+  font-size: 14px;
+}
+
+.fa-star {
+  color: rgb(255, 217, 0);
+  font-size: 12px;
+  filter: drop-shadow(2px 4px 6px rgb(105, 103, 101));
+}
+
+@media screen and (min-width: 768px) {
+  .tours-container {
+    width: 90vw;
+    margin: 0px 50px 0px 50px;
+    position: absolute;
+    top: 190px;
+  }
+
+  .tours-section-title {
+    font-size: 30px;
+    text-align: center;
+    position: unset;
+    margin-top: 95px;
+  }
+  .tours-section-subtitle {
+    font-size: 16px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(80, 76, 73);
+    text-align: center;
+  }
+  .underline {
+    display: none;
+  }
+}
+
+/*-----Accommodations Section------*/
+
+.Accommodations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.acc-img {
+  width: 85vw;
+  height: 170px;
+  border-radius: 14px;
+  box-shadow: -6px -6px 8px 6px rgba(252, 245, 237, 0.5),
+    5px 5px 15px 4px rgba(116, 83, 49, 0.2);
+  position: absolute;
+  top: 140px;
+}
+
+.acc-img2 {
+  display: none;
+}
+
+.acc-section {
+  position: absolute;
+  top: 310px;
+}
+
+.accomodation {
+  width: 90vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.acc-title {
+  font-size: 20px;
+  margin: 8px 5px 5px 5px;
+}
+
+.acc-desc {
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.acc-name {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .Accommodations-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .acc-img {
+    display: none;
+  }
+
+  .acc-img2 {
+    display: inline;
+    height: 450px;
+    width: 330px;
+    border-radius: 14px;
+    box-shadow: -6px -6px 8px 6px rgba(252, 245, 237, 0.5),
+      5px 5px 15px 4px rgba(116, 83, 49, 0.2);
+    position: absolute;
+    left: 55vw;
+    top: 170px;
+  }
+
+  .accomodation {
+    width: 35vw;
+  }
+
+  .acc-section {
+    position: absolute;
+    top: 220px;
+    left: 10vw;
+  }
+}
