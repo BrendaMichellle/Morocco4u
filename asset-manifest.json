@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.355034a3.chunk.css",
+    "main.js": "/static/js/main.5d49d687.chunk.js",
+    "main.js.map": "/static/js/main.5d49d687.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.69eb30d2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.69eb30d2.js.map",
+    "static/js/2.2cd8f353.chunk.js": "/static/js/2.2cd8f353.chunk.js",
+    "static/js/2.2cd8f353.chunk.js.map": "/static/js/2.2cd8f353.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.355034a3.chunk.css.map": "/static/css/main.355034a3.chunk.css.map",
+    "static/js/2.2cd8f353.chunk.js.LICENSE.txt": "/static/js/2.2cd8f353.chunk.js.LICENSE.txt",
+    "static/media/accommodations.a7aefbe3.jpeg": "/static/media/accommodations.a7aefbe3.jpeg",
+    "static/media/accommodationsmobile.cbfef1f9.jpeg": "/static/media/accommodationsmobile.cbfef1f9.jpeg",
+    "static/media/App.css": "/static/media/mobilehomeimage.51b8c980.jpg",
+    "static/media/tour1.86ab98b2.jpeg": "/static/media/tour1.86ab98b2.jpeg",
+    "static/media/tour2.88d591a0.jpeg": "/static/media/tour2.88d591a0.jpeg",
+    "static/media/tour3.2b929f30.jpeg": "/static/media/tour3.2b929f30.jpeg",
+    "static/media/tour4.63fd4a4d.jpeg": "/static/media/tour4.63fd4a4d.jpeg",
+    "static/media/tour5.73782eb1.jpeg": "/static/media/tour5.73782eb1.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69eb30d2.js",
+    "static/js/2.2cd8f353.chunk.js",
+    "static/css/main.355034a3.chunk.css",
+    "static/js/main.5d49d687.chunk.js"
+  ]
+}
