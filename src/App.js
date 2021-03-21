@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import Tours from './components/Tours';
 import Home from './components/Home';
 import Accomodations from './components/Accomodations';
@@ -8,7 +8,7 @@ import './App.css';
 function App() {
 
   return (
-    <Router>
+    <Router basename="/">
     <div className="App">
       <Switch>
         <Route path='/' exact component={Home}></Route>
